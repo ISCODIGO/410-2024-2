@@ -1,0 +1,7 @@
+<persona>
+  <nombre>Chuck</nombre>
+  <telefono type="intl">
+    +1 734 303 4456
+  </telefono>
+  <email oculto="si" />
+</persona>
