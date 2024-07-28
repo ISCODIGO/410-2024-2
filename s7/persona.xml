@@ -3,5 +3,5 @@
   <telefono type="intl">
     +1 734 303 4456
   </telefono>
-  <email oculto="si" />
+  <email oculto="si">hola@ejemplo.com</email>
 </persona>

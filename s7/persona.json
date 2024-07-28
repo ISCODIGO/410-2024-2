@@ -1,23 +1,15 @@
 {
   "persona": {
-    "children": [
-      {
-        "nombre": {
-          "text": "Chuck"
-        }
-      },
-      {
-        "telefono": {
-          "type": "intl",
-          "text": "+1 734 303 4456"
-        }
-      },
-      {
-        "email": {
-          "oculto": "si",
-          "text": ""
-        }
-      }
-    ]
+    "nombre": {
+      "text": "Chuck"
+    },
+    "telefono": {
+      "type": "intl",
+      "text": "+1 734 303 4456"
+    },
+    "email": {
+      "oculto": "si",
+      "text": null
+    }
   }
 }

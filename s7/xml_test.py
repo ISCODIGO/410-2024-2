@@ -4,5 +4,5 @@ archivo = open("persona.xml", "r")
 datos = archivo.read()
 
 arbol = ET.fromstring(datos)
-print("Nombre:", arbol.find("nombre").text)
-print("Atributo:", arbol.find("email").get("oculto"))
+print("Texto (email):", arbol.find("email").text)
+print("Atributo (email):", arbol.find("email").get("oculto"))

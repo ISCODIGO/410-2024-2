@@ -41,5 +41,7 @@ ctx.verify_mode = ssl.CERT_NONE
 
 url = input("Introduzca URL: ")
 html = urllib.request.urlopen(url, context=ctx).read()
+
+
 sopa = BeautifulSoup(html, "html.parser")
 buscar_banner(sopa)
