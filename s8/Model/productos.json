@@ -1,0 +1,62 @@
+[
+    {
+        "precio": 10.0,
+        "codigo": "P001",
+        "descripcion": "Descripcion 1",
+        "es_gravado": true
+    },
+    {
+        "precio": 20.0,
+        "codigo": "P002",
+        "descripcion": "Descripcion 2",
+        "es_gravado": false
+    },
+    {
+        "precio": 30.0,
+        "codigo": "P003",
+        "descripcion": "Descripcion 3",
+        "es_gravado": true
+    },
+    {
+        "precio": 40.0,
+        "codigo": "P004",
+        "descripcion": "Descripcion 4",
+        "es_gravado": false
+    },
+    {
+        "precio": 50.0,
+        "codigo": "P005",
+        "descripcion": "Descripcion 5",
+        "es_gravado": true
+    },
+    {
+        "precio": 60.0,
+        "codigo": "P006",
+        "descripcion": "Descripcion 6",
+        "es_gravado": false
+    },
+    {
+        "precio": 70.0,
+        "codigo": "P007",
+        "descripcion": "Descripcion 7",
+        "es_gravado": true
+    },
+    {
+        "precio": 80.0,
+        "codigo": "P008",
+        "descripcion": "Descripcion 8",
+        "es_gravado": false
+    },
+    {
+        "precio": 90.0,
+        "codigo": "P009",
+        "descripcion": "Descripcion 9",
+        "es_gravado": true
+    },
+    {
+        "precio": 100.0,
+        "codigo": "P010",
+        "descripcion": "Descripcion 10",
+        "es_gravado": false
+    }
+]

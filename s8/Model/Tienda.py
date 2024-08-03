@@ -1,20 +1,8 @@
-#!/usr/bin/python
-#-*- coding: utf-8 -*-
-
 class Tienda:
-    estatico = "hola"
+    def __init__(self, direccion: str, nombre: str, telefonos: list):
+        self.direccion = direccion
+        self.nombre = nombre
+        self.telefonos = "/".join(telefonos)
 
-    def __init__(self):
-        self.direccion = None
-        self.nombre = None
-        self.telefonos = None
-        self.Attribute1 = None
-
-    def f1(self):
-        self.xyz = 0
-
-
-t = Tienda()
-t.f1()
-print(t.__dict__)
-print(Tienda.__dict__)
+    def __str__(self):
+        return f"{self.nombre}"

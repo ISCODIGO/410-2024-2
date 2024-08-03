@@ -1,13 +1,15 @@
-#!/usr/bin/python
-#-*- coding: utf-8 -*-
+ISV = 0.15
+
 
 class Producto:
-    def __init__(self):
-        self.precio = None
-        self.marca = None
-        self.categoria = None
-        self.modelo = None
-        self.codigo = None
-        self.descripcion = None
-        self.isv = None
+    def __init__(self, codigo: str, precio: float, descripcion: str, es_gravado: bool):
+        self.precio = precio
+        self.codigo = codigo
+        self.descripcion = descripcion
+        self.es_gravado = es_gravado
 
+    def calcular_precio(self):
+        return self.precio * (1 + ISV)
+
+    def __str__(self):
+        return f"{self.codigo} - {self.descripcion}"

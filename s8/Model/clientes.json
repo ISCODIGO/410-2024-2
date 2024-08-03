@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Cliente 1",
+        "direccion": "Direccion 1",
+        "telefonos": [
+            "123456789"
+        ],
+        "identidad": "ID001"
+    },
+    {
+        "nombre": "Cliente 2",
+        "direccion": "Direccion 2",
+        "telefonos": [
+            "987654321"
+        ],
+        "identidad": "ID002"
+    }
+]
