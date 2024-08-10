@@ -1,5 +1,6 @@
 import json
 
+
 class Loader:
     @staticmethod
     def cargar(cls, file_path):

@@ -2,21 +2,23 @@ import bcrypt
 
 
 class Vendedor:
+    y = 1234
+
     def __init__(self, codigo, nombre, password):
         self.codigo = codigo
         self.nombre = nombre
         # hash password
-        self.password = self.set_password(password)
+        self.password = self.encriptar_password(password)
 
-    def set_password(self, raw_password):
-        self.password = bcrypt.hashpw(
-            raw_password.encode("utf-8"), bcrypt.gensalt()
-        ).decode("utf-8")
+    def encriptar_password(self, password_original):
+        bytes = password_original.encode('utf-8')
+        salt = bcrypt.gensalt()
+        hash = bcrypt.hashpw(bytes, salt)
+        return hash
 
-    def check_password(self, raw_password):
-        return bcrypt.checkpw(
-            raw_password.encode("utf-8"), self.password.encode("utf-8")
-        )
+    def check_password(self, posible_password):
+        password = posible_password.encode("utf-8")
+        return bcrypt.checkpw(password, self.password)
 
     def __str__(self):
         return f"{self.nombre}"

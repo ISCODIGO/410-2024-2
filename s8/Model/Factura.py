@@ -13,6 +13,7 @@ class TipoCliente(Enum):
     RTN = 1
     CONTADO = 2
 
+
 class Factura:
     def __init__(self, tipo_cliente, vendedor, metodo_pago):
         self.identificador = None
@@ -26,7 +27,7 @@ class Factura:
     @property
     def total(self):
         return self._total
-    
+
     @total.setter
     def total(self, total):
         if total < 0:
@@ -56,4 +57,3 @@ class Factura:
 
     def __str__(self) -> str:
         return f"{self.identificador}"
-
