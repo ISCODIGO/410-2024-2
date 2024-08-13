@@ -2,7 +2,7 @@
 ## 1. Introducción a Django
 Qué es Django: Framework web de alto nivel en Python.
 Ventajas de usar Django: Desarrollo rápido, seguridad, escalabilidad.
-Arquitectura MTV (Model-Template-View): Explicación de cómo se organiza una aplicación en Django.
+Arquitectura MVT (Model-View-Template): Explicación de cómo se organiza una aplicación en Django.
 
 [Documentación oficial de Django - Overview](https://docs.djangoproject.com/es/5.1/misc/design-philosophies/)
 
