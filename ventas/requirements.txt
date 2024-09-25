@@ -1,0 +1,10 @@
+asgiref==3.8.1
+bcrypt==4.2.0
+beautifulsoup4==4.12.3
+Django==5.1
+django-filter==24.3
+djangorestframework==3.15.2
+Markdown==3.7
+soupsieve==2.5
+sqlparse==0.5.1
+tzdata==2024.1

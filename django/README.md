@@ -21,11 +21,13 @@ Configuración básica de URLs: Introducción al enrutamiento.
 [Documentación de Django sobre aplicaciones](https://docs.djangoproject.com/es/5.1/ref/applications/)
 
 ## 4. Modelos y Migraciones
-Creación de un modelo básico: Definir modelos en models.py.
-Migraciones: Crear y aplicar migraciones usando python manage.py makemigrations y python manage.py migrate.
-Consultas básicas con el ORM de Django.
+- Creación de un modelo básico: Definir modelos en models.py.
+- Migraciones: Crear migraciones usando `python manage.py makemigrations` y aplicar las migraciones pendientes con `python manage.py migrate`.
 
 [Documentación sobre modelos en Django](https://docs.djangoproject.com/es/5.1/topics/db/models/)
+
+
+[Tipos de Campos](fields.md)
 
 ## 5. Administración de Django
 Configuración del panel de administración: Registrar modelos para el admin.
@@ -41,13 +43,16 @@ Sistema de plantillas de Django: Extender plantillas y uso de etiquetas.
 [Documentación sobre vistas y plantillas](https://docs.djangoproject.com/es/5.1/topics/http/views/)
 
 ## 7. Formularios en Django
-Formularios básicos: Creación y manejo de formularios con forms.py.
+Formularios básicos: Creación y manejo de formularios con `forms.py`.
 Validación de formularios y procesamiento de datos POST.
 
 [Documentación sobre formularios en Django](https://docs.djangoproject.com/es/5.1/topics/forms/)
 
 ## 8. Despliegue Básico
-Configuración para producción: Ajustes en settings.py para un entorno de producción.
+Configuración para producción: Ajustes en `settings.py` para un entorno de producción.
 Despliegue en un servidor web: Opciones como Heroku, AWS, o DigitalOcean.
 
 [Guía de despliegue de Django](https://docs.djangoproject.com/es/5.1/howto/deployment/)
+
+## Otros recursos
+- [Rest API](rest_api.md)
